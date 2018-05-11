@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bImage"
+            android:layout_weight="1"
+            android:maxHeight="200dp"
+            android:contentDescription="@string/bettery" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:background="#cd853f"
+            >
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:hint="@string/status"
+            android:textSize="30sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level"
+            android:hint="@string/level"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.9"
+        android:id="@id/scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/batteryvoltage"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/battery_voltage"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/batterytemperature"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/battery_temperature"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/batterytechology"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/technology"
+                android:textSize="24sp"
+
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/batterystatus"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/bstatus"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/batteryhealth"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/health"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/plugged"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/plugged"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:id="@+id/present"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/present"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:id="@+id/scale"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/scale"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/iconSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/iconsmall"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:id="@+id/plugtype"
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:text="@string/plug_type"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+android:background="#008b8b"
+            android:text="@string/btnexit" />
+
+
+</LinearLayout>

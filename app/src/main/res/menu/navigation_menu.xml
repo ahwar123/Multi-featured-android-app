@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/sensors"
+        android:icon="@drawable/ic_view_carousel_black_24dp"
+        android:title="@string/sensorss" />
+    <item android:id="@+id/callog"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="@string/calllog"/>
+    <item android:id="@+id/bettery"
+        android:icon="@drawable/ic_battery_charging_full_black_24dp"
+        android:title="@string/battery"/>
+    <item android:id="@+id/accessory"
+        android:icon="@drawable/ic_av_timer_black_24dp"
+        android:title="@string/accessories"/>
+    <item android:id="@+id/launcher"
+        android:icon="@drawable/ic_launch_black_24dp"
+        android:title="@string/launcher"/>
+</menu>

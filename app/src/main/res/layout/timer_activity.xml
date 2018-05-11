@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/value"
+        android:hint="@string/Seconds"
+        android:gravity="center"
+        android:inputType="number" />
+
+    <Button
+        android:text="@string/start_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start"
+        android:background="#008b8b"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:text="@string/cancel_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer_cancel"
+        android:textColor="#ffffff"
+        android:background="#424242"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:id="@+id/countdown"
+        android:textColor="@android:color/holo_red_dark" />
+</LinearLayout>

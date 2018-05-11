@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008b8b"
+
+    >
+
+    <TextView
+        android:text="@string/xCordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xcordinate"
+        android:textSize="50sp"
+        android:background="#008b8b"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="@string/yCordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ycordinate"
+        android:textSize="50sp"
+        android:background="#008b8b"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:text="@string/zCordinate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zcordinate"
+        android:textSize="50sp"
+        android:background="#008b8b"
+        android:textColor="#ffffff"/>
+</LinearLayout>

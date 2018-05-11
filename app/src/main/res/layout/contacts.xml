@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f8ff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop"
+        android:titleTextColor="#ffffff"
+        android:background="#778899"
+        android:textAlignment="center"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/contacts_toolbar"
+        android:title="@string/contacts_info"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contacts_list"
+        android:layout_below="@+id/contacts_toolbar"/>
+
+</RelativeLayout>

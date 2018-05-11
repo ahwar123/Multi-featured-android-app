@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="scroll" type="id" />
+    <item name="l2" type="id" />
+    <item name="l3" type="id" />
+    <item name="l4" type="id" />
+    <item name="l1" type="id" />
+    <item name="l5" type="id" />
+    <item name="clear" type="id">clear</item>
+    <item name="backSpace" type="id">backspace</item>
+</resources>
